@@ -6,9 +6,6 @@ import static java.util.stream.Collectors.toList;
 
 import static streams.Dish.menu;
 
-/**
- * Created by ahmad on 01/09/15.
- */
 public class Mapping {
 
     public static void main(String[] args) {
