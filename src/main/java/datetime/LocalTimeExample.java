@@ -2,9 +2,6 @@ package datetime;
 
 import java.time.LocalTime;
 
-/**
- * Created by ahmad on 02/10/15.
- */
 public class LocalTimeExample {
 
     public static void main(String[] args) {

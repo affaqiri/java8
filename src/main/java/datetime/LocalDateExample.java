@@ -5,16 +5,12 @@ import java.time.LocalDate;
 import java.time.Month;
 import java.time.temporal.ChronoField;
 
-/**
- * Created by ahmad on 02/10/15.
- */
 public class LocalDateExample {
 
     public static void main(String[] args) {
 
         LocalDate date = LocalDate.of(2014, 3, 18);
-        System.out.println("Date : " + date);
-
+        System.out.println("LocalDate " + date);
         System.out.println("---------------------");
 
         int year = date.getYear();

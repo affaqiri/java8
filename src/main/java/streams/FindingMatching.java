@@ -6,10 +6,7 @@ import java.util.Optional;
 
 import static streams.Dish.menu;
 
-/**
- * Created by ahmad on 01/09/15.
- */
-public class Finding {
+public class FindingMatching {
 
     public static void main(String[] args) {
 

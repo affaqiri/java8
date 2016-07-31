@@ -2,9 +2,6 @@ package datetime;
 
 import java.time.Instant;
 
-/**
- * Created by ahmad on 02/10/15.
- */
 public class InstantExample {
 
     public static void main(String[] args) {
@@ -25,6 +22,12 @@ public class InstantExample {
 
         Instant instant5 = Instant.ofEpochSecond(3, 100);
         System.out.println("3 seconds plus 100 nanoseconds passed 1970-01-01 00:00:00 : " + instant5);
+
+        Instant instant = Instant.ofEpochSecond(44 * 365 * 86400);
+        System.out.println("An instant : " + instant);
+
+        Instant now = Instant.now();
+        System.out.println("Now : " + now);
 
     }
 

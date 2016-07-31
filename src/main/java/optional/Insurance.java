@@ -1,8 +1,5 @@
 package optional;
 
-/**
- * Created by ahmad on 04/10/15.
- */
 public class Insurance {
 
     /**

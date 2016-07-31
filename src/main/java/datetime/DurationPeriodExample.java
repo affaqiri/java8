@@ -3,9 +3,6 @@ package datetime;
 import java.time.*;
 import java.time.temporal.ChronoUnit;
 
-/**
- * Created by ahmad on 02/10/15.
- */
 public class DurationPeriodExample {
 
     public static void main(String[] args) {

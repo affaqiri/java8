@@ -5,10 +5,6 @@ import java.util.*;
 
 import static streams.Dish.menu;
 
-
-/**
- * Created by ahmad on 03/09/15.
- */
 public class NumericStreams {
 
     public static void main(String[] args) {
@@ -16,6 +12,7 @@ public class NumericStreams {
         List<Integer> numbers = Arrays.asList(3, 4, 5, 1, 2);
 
         Arrays.stream(numbers.toArray()).forEach(System.out::println);
+        System.out.println("---------------------");
 
         // Conversion of a Stream<T> to IntStream supporting sum, max, min, etc.
 
@@ -25,7 +22,6 @@ public class NumericStreams {
 
         System.out.println("Total number of calories : " + totalCalories);
         System.out.println("---------------------");
-
 
         // Conversion back from an IntSteam to the boxed Stream<Integer>
 

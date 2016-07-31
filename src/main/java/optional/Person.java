@@ -2,9 +2,6 @@ package optional;
 
 import java.util.Optional;
 
-/**
- * Created by ahmad on 04/10/15.
- */
 public class Person {
 
     /**

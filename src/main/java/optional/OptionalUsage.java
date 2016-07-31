@@ -2,9 +2,6 @@ package optional;
 
 import java.util.Optional;
 
-/**
- * Created by ahmad on 04/10/15.
- */
 public class OptionalUsage {
 
     public static void main(String[] args) {
@@ -13,11 +10,13 @@ public class OptionalUsage {
         Optional<Car> emptyOptCar = Optional.empty();
 
         // Optional from a non-null value
-        Car car = new Car( );
+        Car car = new Car();
         Optional<Car> nonNullOptCar = Optional.of(car);
 
-        // Optional from null
         car = null;
+        // Optional<Car> exceptionOptCar = Optional.of(car); //Immediate error in Of even before usage.
+
+        // Optional from null
         Optional<Car> nullOptCar = Optional.ofNullable(car);
 
         Insurance insurance = new Insurance("GMF");
