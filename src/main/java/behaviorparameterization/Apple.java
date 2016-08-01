@@ -1,8 +1,5 @@
 package behaviorparameterization;
 
-/**
- * Created by ahmad on 06/10/15.
- */
 public class Apple {
 
     private int weight = 0;

@@ -5,9 +5,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
 
-/**
- * Created by ahmad on 06/10/15.
- */
 public class BehaviorParameterization {
 
     public static void main(String[] args) {
@@ -68,7 +65,6 @@ public class BehaviorParameterization {
         List<Integer> numbers = Arrays.asList(2, 5, 6, 7, 13);
         List<Integer> evenNumbers = genericFilter(numbers, (Integer i) -> i % 2 == 0);
         System.out.println(evenNumbers);
-
     }
 
     public static List<Apple> filterGreenApples(List<Apple> inventory) {
@@ -78,6 +74,7 @@ public class BehaviorParameterization {
                 result.add(apple);
             }
         }
+
         return result;
     }
 
@@ -88,6 +85,7 @@ public class BehaviorParameterization {
                 result.add(apple);
             }
         }
+
         return result;
     }
 
@@ -98,6 +96,7 @@ public class BehaviorParameterization {
                 result.add(apple);
             }
         }
+
         return result;
     }
 
@@ -109,6 +108,7 @@ public class BehaviorParameterization {
                 result.add(apple);
             }
         }
+
         return result;
     }
 
@@ -119,6 +119,7 @@ public class BehaviorParameterization {
                 result.add(apple);
             }
         }
+
         return result;
     }
 
@@ -129,6 +130,7 @@ public class BehaviorParameterization {
                 result.add(e);
             }
         }
+
         return result;
     }
 
